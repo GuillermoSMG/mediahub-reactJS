@@ -14,7 +14,7 @@ import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 const categories = [
   { name: "New", icon: <HomeIcon /> },
-  { name: "The Weeknd", icon: <CodeIcon /> },
+  { name: "JS Mastery", icon: <MusicNoteIcon /> },
   { name: "Coding", icon: <CodeIcon /> },
   { name: "ReactJS", icon: <CodeIcon /> },
   { name: "NextJS", icon: <CodeIcon /> },
