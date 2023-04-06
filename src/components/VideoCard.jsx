@@ -4,7 +4,6 @@ import { CheckCircle } from "@mui/icons-material";
 import {
   demoChannelTitle,
   demoChannelUrl,
-  demoProfilePicture,
   demoThumbnailUrl,
   demoVideoTitle,
   demoVideoUrl,
