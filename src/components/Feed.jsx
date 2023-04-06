@@ -7,6 +7,7 @@ import { fetchApi } from "../utils/fetchApi";
 function Feed() {
   const [selectedCategory, setSelectedCategory] = useState("New");
   const [videos, setVideos] = useState([]);
+  console.log(videos);
 
   useEffect(() => {
     fetchApi(`search?part=snippet&q=${selectedCategory}`).then((data) =>
