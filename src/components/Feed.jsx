@@ -15,8 +15,6 @@ function Feed() {
     );
   }, [selectedCategory]);
 
-  console.log(videos);
-
   return (
     <Stack
       sx={{

@@ -12,7 +12,6 @@ function SearchFeed() {
       setVideos(data.items)
     );
   }, [searchTerm]);
-  console.log(videos);
 
   return (
     <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
